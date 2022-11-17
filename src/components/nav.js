@@ -15,6 +15,8 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Logo from '../Assets/logo.png'
 import { height } from '@mui/system';
+import Transitions from './transitions'
+import { Link } from 'react-router-dom'
 
 const pages = ['Home', 'Skills', 'Experience', 'Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -39,7 +41,8 @@ function nav (){
   //   setAnchorElUser(null);
   // };
   return (
-    <AppBar position="static" sx={{background:'#F2E2E3'}}>
+    <Transitions>
+    <AppBar position="static" sx={{background:'#fff'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -67,14 +70,14 @@ function nav (){
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
-              // onClick={handleOpenNavMenu}
+              onClick={handleOpenNavMenu}
               color="inherit"
             >
               <MenuIcon />
             </IconButton>
             <Menu
               id="menu-appbar"
-              // anchorEl={anchorElNav}
+              anchorEl={anchorElNav}
               anchorOrigin={{
                 vertical: 'bottom',
                 horizontal: 'left',
@@ -84,15 +87,15 @@ function nav (){
                 vertical: 'top',
                 horizontal: 'left',
               }}
-              // open={Boolean(anchorElNav)}
-              // onClose={handleCloseNavMenu}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
               sx={{
                 display: { xs: 'block', md: 'none' },
               }}
             >
               {pages.map((page) => (
                 <MenuItem key={page} 
-                // onClick={handleCloseNavMenu}
+                onClick={handleCloseNavMenu}
                 >
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
@@ -129,6 +132,7 @@ function nav (){
               </Button>
             ))}
           </Box>
+
 {/* 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
@@ -166,6 +170,7 @@ function nav (){
         </Toolbar>
       </Container>
     </AppBar>
+    </Transitions>
   )
 }
 

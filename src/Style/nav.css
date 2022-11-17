@@ -4,3 +4,6 @@
     .MuiButtonBase-root:focus{
     color: #D9186A !important;
 }
+    .MuiButtonBase-root:active{
+    color: #D9186A !important;
+}
