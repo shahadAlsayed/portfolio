@@ -3,8 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import { Switch,  Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// const Experience = () => (
+//   <Switch>
+//     <Route exact path='/experience' component={Experience} />
+//   </Switch>
+// )
 root.render(
   <React.StrictMode>
     <App />

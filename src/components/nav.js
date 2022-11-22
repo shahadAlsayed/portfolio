@@ -16,13 +16,35 @@ import AdbIcon from '@mui/icons-material/Adb';
 import Logo from '../Assets/logo.png'
 import { height } from '@mui/system';
 import Transitions from './transitions'
-import { Link } from 'react-router-dom'
-
-const pages = ['Home', 'Skills', 'Experience', 'Contact'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+import { Link, animateScroll as scroll } from "react-scroll";
+import Experience from './experience';
 
 
 function nav (){
+  const pages = ['Home', 'About','Skills', 'Experience','Projects','Contact'];
+
+  const renderNavLink = (page) => {
+    
+    const scrollToId =`${page.toLowerCase()}Section`;
+  
+    const handelClickNav = () => {
+      document.getElementById(scrollToId).scrollIntoView({behavior:'smooth'})
+    }
+    return(
+      <Box sx={{ flexGrow: 1,display: { xs: 'none', md: 'flex' } }}>
+      {/* {pages.map((page) => ( */}
+        <Button
+          key={page}
+          onClick={handelClickNav}
+          sx={{ my: 2, color: '#3F3F3F', display: 'block' }}
+        >
+         {page}
+        </Button>
+      {/* ))} */}
+    
+    </Box>
+    )
+  }
   // const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
   // const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
 
@@ -41,8 +63,8 @@ function nav (){
   //   setAnchorElUser(null);
   // };
   return (
-    <Transitions>
-    <AppBar position="static" sx={{background:'#fff'}}>
+
+    <AppBar position="static" sx={{background:'#fff', boxShadow:'none'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -122,15 +144,17 @@ function nav (){
             LOGO
           </Typography> */}
           <Box sx={{ flexGrow: 1,display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {/* {pages.map((page) => (
               <Button
                 key={page}
-                // onClick={handleCloseNavMenu}
+                onClick={handelClickNav}
                 sx={{ my: 2, color: '#3F3F3F', display: 'block' }}
               >
-                {page}
+               {page}
               </Button>
-            ))}
+            ))} */}
+            {pages.map(page => renderNavLink(page))}
+          
           </Box>
 
 {/* 
@@ -170,8 +194,11 @@ function nav (){
         </Toolbar>
       </Container>
     </AppBar>
-    </Transitions>
+    
+   
   )
-}
+        }
+
+
 
 export default nav;

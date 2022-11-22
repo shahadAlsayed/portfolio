@@ -2,36 +2,39 @@ import React from 'react'
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Skeleton from '@mui/material/Skeleton';
 import Fade from '@mui/material/Fade';
 import Logo from '../Assets/logo-w.svg'
 import '../Style/hero.css'
-import Transitions from './transitions'
 
-function hero(){
-  return (
-    <Transitions>
 
-    
+function Hero(){
+  const [checked] = React.useState(true);
+  return (    
+    <section id="homeSection">
     <Box>
-        <Container disableGutters={true} sx={{height:'60vh',width:'100vw', bgcolor:"#fff" , display:'flex' ,flexDirection:'row' , alignItems:'center' }} maxWidth="false" >
-      {/* <Container  disableGutters={true} sx={{height:'70%'}} maxWidth="m" > */}
+        <Container disableGutters={true} sx={{height:'60vh',width:'100vw',  display:'flex' ,flexDirection:'row' , alignItems:'center' }} maxWidth="false" >
 
-        <Box sx={{display:'flex',flexDirection:'column' ,  height: '60%', width: '45%', alignItems:'center', justifyContent:'center' }}>
+        <Box sx={{display:'flex',flexDirection:'column' ,  height: '60%', width: '45%', alignItems:'flex-start', justifyContent:'center', paddingLeft:'12em' ,paddingTop:'12em'}}>
+
+        <Fade in={checked} appear='true' timeout={6000} >
             <Typography variant="h1" sx={{color:'#D9186A' , letterSpacing:'0.1em'}}>Protfolio</Typography>
+        </Fade>
+
+        <Fade in={checked} appear='true' timeout={11000} >
             <Typography variant="h3" sx={{color:'#40403F' , paddingTop:'1em', letterSpacing:'0.1em'}}>Shahad Alsayed</Typography>
+            </Fade>
+
         </Box>
+
         <Box sx={{  height: '100%', width: '55%'  }}>
-        <img className='logo' src={Logo}/>
+        <Fade in={checked} appear='true' timeout={3000}><img className='logo' src={Logo}/></Fade>
         </Box>
 
      </Container>
     </Box>
-    </Transitions>
+    </section>
+    
   )
 }
 
-export default hero;
+export default Hero;

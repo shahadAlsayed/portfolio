@@ -21,9 +21,10 @@ import Transitions from './transitions'
 function experience(){
   return (
     <>
-    <Transitions>
+    <section id="experienceSection">
 
-    <Box sx={{}}>
+   
+    <Box sx={{paddingTop:'8em'}}>
     <Typography className='title' variant='h3' sx={{color:'#3F3F3F' , fontWeight:'bold' , justifyContent:'center', display:'flex', paddingTop:'4rem' , paddingBottom:'2rem'}}>Experience</Typography>
 
     <Timeline position="alternate">
@@ -102,7 +103,7 @@ function experience(){
       </TimelineItem>      
     </Timeline> 
     </Box>
-    </Transitions>
+    </section>
     </>
   );
 }
