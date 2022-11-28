@@ -8,6 +8,7 @@ import TechnicalSkills from './technicalSkills';
 import AboutMe from './aboutMe';
 import Projects from './projects';
 import Contact from './contact';
+import TagSkills from './tagSkills';
 function home(){
   return (
     <>
@@ -15,8 +16,9 @@ function home(){
     <Hero/>
     <AboutMe></AboutMe>
     <Experience></Experience>
-    <SoftSkills></SoftSkills>
-    <TechnicalSkills></TechnicalSkills>
+    <TagSkills></TagSkills>
+    {/* <SoftSkills></SoftSkills> */}
+    {/* <TechnicalSkills></TechnicalSkills> */}
     <Projects></Projects>
     <Contact></Contact>
     </>
