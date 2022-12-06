@@ -1,0 +1,46 @@
+.linkedinIcon{
+    width: 8%;
+    height: 30%;
+    content: url('../Assets/linkedin.svg');
+    /* background-color: #F2E2E3; */
+    /* border: 2px solid #F2E2E3; */
+    border-radius: 50%;
+    padding: 8px;
+    /* width: 10%; */
+    /* height: 30%; */
+    
+}
+
+.phoneIcon{
+    width: 8%;
+    height: 30%;
+    content: url('../Assets/phone3.svg');
+    /* background-color: #F2E2E3; */
+    /* border: 2px solid #F2E2E3; */
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.emailIcon{
+    width: 8%;
+    height: 30%;
+    content: url('../Assets/email.svg');
+    /* background-color: #F2E2E3; */
+    /* border: 2px solid #F2E2E3; */
+    border-radius: 50%;
+    padding: 8px;
+}
+
+
+.icon:hover{
+    background-color: #F2E2E3;
+    /* border-radius: 50%;
+    width: 10%;
+    height: 30%;
+    padding: 8px; */
+}
+
+.pattren{
+    width: 100%;
+    height: auto;
+}
