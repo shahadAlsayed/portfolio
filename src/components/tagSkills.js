@@ -61,7 +61,8 @@ function tagSkills() {
       ];
       
   return (
-<>
+
+<section id="skillsSection"> 
 
     <Typography className='title' variant='h3' sx={{color:'#3F3F3F' , fontWeight:'bold' , justifyContent:'center', display:'flex', paddingTop:'4rem' , paddingBottom:'2rem',marginTop:'4em'}}>Skills</Typography>
 
@@ -95,8 +96,8 @@ function tagSkills() {
         </Box>
         </Box>
       </Box>
+      </section>
 
-</>
   )
 }
 export default tagSkills;

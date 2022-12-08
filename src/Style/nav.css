@@ -10,7 +10,10 @@
 .css-1t6c9ts{
 justify-content: center !important;
 }
-
+.css-ss28f8-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #fff !important;
+    color: #D9186A !important;
+}
 .nav{
     /* top: 0 !important; */
     /* background-color: aqua !important; */

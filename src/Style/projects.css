@@ -151,7 +151,7 @@
   }
   
   .container .card .contentBx .tag {
-    width: 100px;
+    width: auto;
     height: 30px;
     text-align: center;
     line-height: 26px;

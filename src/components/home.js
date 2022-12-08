@@ -2,13 +2,11 @@ import React from 'react'
 import Nav from './nav';
 import Hero from './Hero';
 import Experience from './experience';
-import Skils from './skils.tsx'
-import SoftSkills from './softSkills';
-import TechnicalSkills from './technicalSkills';
 import AboutMe from './aboutMe';
 import Projects from './projects';
 import Contact from './contact';
 import TagSkills from './tagSkills';
+import CV from './cv'
 function home(){
   return (
     <>
@@ -17,9 +15,8 @@ function home(){
     <AboutMe></AboutMe>
     <Experience></Experience>
     <TagSkills></TagSkills>
-    {/* <SoftSkills></SoftSkills> */}
-    {/* <TechnicalSkills></TechnicalSkills> */}
     <Projects></Projects>
+    {/* <CV></CV> */}
     <Contact></Contact>
     </>
   )

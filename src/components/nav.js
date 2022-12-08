@@ -28,7 +28,7 @@ function nav (){
     })
 })
 
-  const pages = ['Home', 'About','Skills', 'Experience','Projects','Contact'];
+  const pages = ['Home', 'About', 'Experience','Skills','Projects','Contact'];
 
   const renderNavLink = (page) => {
     

@@ -4,17 +4,28 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import '../Style/contact.css'
 import Pattren from '../Assets/pattren.png';
-import Linkedin from '../Assets/linkedin.svg'
+import CvComponent from './cv.js'
+import QR from '../Assets/qr.png'
+
 function contact(){
   return (    
 
     <section id="contactSection">
     <Typography className='title' variant='h3' sx={{color:'#3F3F3F' , fontWeight:'bold' , justifyContent:'center', display:'flex', paddingTop:'4rem' , paddingBottom:'2rem',marginTop:'4em'}}>Contact</Typography>
+    {/* <Box> */}
+
     <Box sx={{width:'60%',display:'flex',justifyContent:'center',marginLeft:'auto',marginRight:'auto',marginBottom:'4em'}}>
-      <Box sx={{width:'50%',bgcolor:"#F2E2E3"}}>
-      <img className='pattren' src={Pattren}></img>
+      <Box  className='pattren' sx={{bgcolor:"#F2E2E3"}}>
+      {/* <img className='pattren' src={Pattren}></img> */}
+
+      <Box  sx={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',width:'80% '}}>
+            <Typography variant='h6' sx={{color:'#3F3F3F' , fontWeight:'bold' }}> Scan the QR</Typography>
+            <img className='qr' src={QR}></img>
+        </Box>
+
       </Box>
-      <Box sx={{width:'50%',justifyContent:'center',display:'flex',flexDirection:'column',border:'20px solid #F2E2E3'}}>
+      
+      <Box sx={{width:'80%',justifyContent:'center',display:'flex',flexDirection:'column',border:'10px solid #F2E2E3'}}>
         <Box sx={{display:'flex', flexDirection:'row', paddingLeft:'2em',alignItems:'center'}}>
         <a className='linkedinIcon icon' href='https://mui.com/material-ui/icons/#material-svg-icons'>
         <img className='linkedinIcon icon' ></img>
@@ -43,8 +54,10 @@ function contact(){
           </Box>
         </Box>
       </Box>
-
     </Box>
+
+    {/* <CvComponent></CvComponent> */}
+    {/* </Box> */}
     </section>
     
   )
