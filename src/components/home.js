@@ -12,7 +12,7 @@ function home(){
   return (
     <>
     <Nav/>
-    {/* <Hero/> */}
+    <Hero/>
     <AboutMe></AboutMe>
     <Experience></Experience>
     <TagSkills></TagSkills>

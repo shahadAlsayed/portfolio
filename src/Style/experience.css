@@ -29,11 +29,12 @@ body{
 } */
 
 @media only screen and (max-width: 1024px) {
-
     .css-ghevlx-MuiTypography-root-MuiTimelineContent-root{
       font-size: 1em !important;
     }
-
+    .css-tyxktk-MuiTypography-root{
+        margin-top: 0 !important;
+    }
 
   }
 

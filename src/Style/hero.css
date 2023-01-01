@@ -3,3 +3,38 @@
     height: auto;
     opacity: 0.4;
 }
+
+@media only screen and (max-width: 1024px) {
+    .css-amucff-MuiTypography-root{
+        font-size: 4em !important;
+    }
+    .css-1ed897c-MuiTypography-root{
+        font-size: 2em !important; 
+    }
+    .css-oqutt6-MuiContainer-root{
+        width: 100vw !important;
+        height: 80vh !important;
+        padding-top: 40px !important;
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .css-s34gw7{
+        width: 80vw !important;
+        /* align-items: center !important; */
+        padding-top: 3em !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+    .css-1i3z4k7{
+        width: 100vw !important;
+    }
+
+    .logo{
+        width: 95vw;
+    }
+    
+
+  }
