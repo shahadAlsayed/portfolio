@@ -6,17 +6,12 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import HotelIcon from '@mui/icons-material/Hotel';
-import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
 import SchoolIcon from '@mui/icons-material/School';
 import CodeIcon from '@mui/icons-material/Code';
 import PersonIcon from '@mui/icons-material/Person';
 import '../Style/experience.css'
 import Box from '@mui/material/Box';
-import Transitions from './transitions'
 
 function experience(){
   return (
@@ -47,7 +42,7 @@ function experience(){
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span" sx={{color:'#3F3F3F' , fontWeight:'bold'}}>
-          Developer
+          Developer & UX|UI Designer
           </Typography>
           <Typography sx={{color:'#3F3F3F'}}>Solutions by stc</Typography>
         </TimelineContent>

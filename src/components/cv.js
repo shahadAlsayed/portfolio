@@ -8,7 +8,6 @@ import QR from '../Assets/qr.png'
 function cv(){
   return (
     <section id="cvSection">
-    {/* <Typography className='title' variant='h3' sx={{color:'#3F3F3F' , fontWeight:'bold' , justifyContent:'center', display:'flex', paddingTop:'4rem' , paddingBottom:'2rem',marginTop:'4em'}}>CV</Typography> */}
     <Box sx={{flexDirection:'row',width:'100%',height:'50%',display:'flex',justifyContent:'center',marginLeft:'auto',marginRight:'auto',marginBottom:'4em',alignItems:'center',}}>
         <Box className='wrap' sx={{width:'40%',alignItems:'center',display:'flex'}}>
         <Button className="download">Download the CV</Button>

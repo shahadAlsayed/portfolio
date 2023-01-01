@@ -1,5 +1,5 @@
 .css-ss28f8-MuiButtonBase-root-MuiButton-root{
-    padding: 6px 35px !important;
+    padding: 6px 5px !important;
 }
     .MuiButtonBase-root:focus{
     color: #D9186A !important;
@@ -14,8 +14,42 @@ justify-content: center !important;
     background-color: #fff !important;
     color: #D9186A !important;
 }
-.nav{
-    /* top: 0 !important; */
-    /* background-color: aqua !important; */
-    /* opacity:0.4; */
+
+.css-19r6kue-MuiContainer-root{
+    width: 70% !important;
 }
+@media only screen and (max-width: 1024px) {
+
+    .css-1t6c9ts{
+      display: flex !important;
+    }
+    .MuiButtonBase-root:focus{
+        color: #D9186A !important;
+    }
+    .MuiButtonBase-root:active{
+        color: #D9186A !important;
+    }
+    .css-1t6c9ts{
+        justify-content: center !important;
+        }
+        .css-ss28f8-MuiButtonBase-root-MuiButton-root:hover{
+            background-color: #fff !important;
+            color: #D9186A !important;
+        }
+        .css-19r6kue-MuiContainer-root {
+            margin-left: none !important;
+            margin-right: none !important;
+            padding-left: 1px !important;
+            padding-right: 1px !important;
+        }
+        .css-ss28f8-MuiButtonBase-root-MuiButton-root{
+            font-size: 0.5em !important;
+        }
+        .css-ss28f8-MuiButtonBase-root-MuiButton-root{
+            padding: 2px 1px !important;
+        }
+        .css-19r6kue-MuiContainer-root{
+            width: 100% !important ;
+        }
+  }
+

@@ -12,9 +12,9 @@ function Hero(){
   return (    
     <section id="homeSection">
     <Box>
-        <Container disableGutters={true} sx={{height:'60vh',width:'100vw',  display:'flex' ,flexDirection:'row' , alignItems:'center' }} maxWidth="false" >
+        <Container disableGutters={true} sx={{height:'60vh',width:'95vw',  display:'flex' ,flexDirection:'row' , alignItems:'center',marginBottom:'4rem'}} maxWidth="false" >
 
-        <Box sx={{display:'flex',flexDirection:'column' ,  height: '60%', width: '45%', alignItems:'flex-start', justifyContent:'center', paddingLeft:'12em' ,paddingTop:'12em'}}>
+        <Box sx={{display:'flex',flexDirection:'column' ,  height: '60%', width: '45vw', alignItems:'flex-start', justifyContent:'center', paddingLeft:'5em' ,paddingTop:'12em'}}>
 
         <Fade in={checked} appear='true' timeout={6000} >
             <Typography variant="h1" sx={{color:'#D9186A' , letterSpacing:'0.1em'}}>Protfolio</Typography>
@@ -26,7 +26,7 @@ function Hero(){
 
         </Box>
 
-        <Box sx={{  height: '100%', width: '55%'  }}>
+        <Box sx={{  height: '100%', width: '55vw'  }}>
         <Fade in={checked} appear='true' timeout={3000}><img className='logo' src={Logo}/></Fade>
         </Box>
 

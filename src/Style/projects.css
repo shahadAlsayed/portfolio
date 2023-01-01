@@ -66,7 +66,8 @@
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%) ;
-   width: 270px;
+   /* width: 270px; */
+   width: 100px;
  }
  
  .container .card .contentBx{
@@ -183,3 +184,26 @@
    */
 
   
+ .large{
+width: 310px !important;
+   }
+ .notlarge{
+width: 100px !important;
+   }
+
+
+
+   @media only screen and (max-width: 1024px) {
+
+    .css-tyxktk-MuiTypography-root{
+        font-size: 2em !important;
+    }
+
+    .container .card .contentBx h2{
+      font-size: 1em !important;
+    }
+
+    .container .card .contentBx .tag{
+      font-size: 12px !important;
+    }
+  }

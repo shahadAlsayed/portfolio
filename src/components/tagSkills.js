@@ -58,17 +58,26 @@ function tagSkills() {
         {
             skill: 'JSON',
         },
+        {
+            skill: 'HTML5',
+        },
+        {
+          skill: 'CSS',
+        },
+        {
+            skill: 'JS',
+        },
       ];
       
   return (
 
 <section id="skillsSection"> 
 
-    <Typography className='title' variant='h3' sx={{color:'#3F3F3F' , fontWeight:'bold' , justifyContent:'center', display:'flex', paddingTop:'4rem' , paddingBottom:'2rem',marginTop:'4em'}}>Skills</Typography>
+    <Typography className='title' variant='h3' sx={{color:'#3F3F3F' , fontWeight:'bold' , justifyContent:'center', display:'flex', paddingTop:'4rem' , paddingBottom:'2rem',marginTop:'4em',marginBottom:'2em'}}>Skills</Typography>
 
-      <Box className="content">
-        <Box className='part1'> 
-      <Typography  variant='h6' sx={{bgcolor:'#D9186A',color:'#fff' , fontWeight:'bold' , justifyContent:'center', display:'flex',writingMode:'tb-rl'}}>Soft</Typography>
+      <Box className="content" sx={{display:'flex',flexDirection:'row',width:'80%'}}>
+        <Box className='part1' sx={{width:'50%',borderRight:'6px solid #d9186a'}}> 
+      <Typography  variant='h6' sx={{bgcolor:'#D9186A',color:'#fff' , fontWeight:'bold',width:'20%',display:'flex',justifyContent:'center'}}>Soft</Typography>
 
         <Box className="container-skillbar">
         {softSkills.map((skill) => (
@@ -81,8 +90,8 @@ function tagSkills() {
             ))}
         </Box>
         </Box>
-        <Box className='part1' sx={{paddingTop:'2em'}}> 
-        <Typography  variant='h6' sx={{bgcolor:'#D9186A',color:'#fff' , fontWeight:'bold' , justifyContent:'center', display:'flex', writingMode: 'vertical-lr',textOrientation: 'upright'}}>Technical</Typography>
+        <Box className='part1' sx={{width:'50%'}}> 
+        <Typography  variant='h6' sx={{bgcolor:'#D9186A',color:'#fff' , fontWeight:'bold',width:'20%',display:'flex',justifyContent:'center'}}>Technical</Typography>
 
         <Box className="container-skillbar">
         {technicalSkills.map((skill) => (

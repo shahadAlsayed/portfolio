@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1024px) {
+    .css-1hm45a6-MuiContainer-root{
+        width: 80% !important;
+    }
+    .css-w5igko-MuiTypography-root{
+        font-size: 2em !important;
+    }
+    .css-rcfdz1-MuiTypography-root, .css-1m7uz5y-MuiTypography-root{
+        font-size: 1em !important;
+    }
+  }

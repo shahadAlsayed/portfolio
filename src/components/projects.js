@@ -1,39 +1,40 @@
 import React from 'react'
 import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import '../Style/projects.css'
-import Logo from '../Assets/logo.png'
-import LoqeanLogo from '../Assets/loqeanLogo.png'
-
+import LoqProject from '../Assets/Screenshot 1444-05-18 at 10.24.13 AM.png'
+import GameProject from '../Assets/game.png'
+import KnozeProject from '../Assets/knoze.png'
+import BlockChine from '../Assets/BlockChine.png'
 function projects(){
   const projectData = [
     {
-      img: LoqeanLogo,
+      img: LoqProject,
       title: 'Loqean',
       tag: 'Android Studio',
       des: 'Mobile application that use IOT and sensor that aims to helps users find their lost and misplaced items by allowing them to monitor the location of each item and track them.',
+      large:false, 
     },
     {
-      // img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-      img: LoqeanLogo,
-      title: 'Project2',
-      tag: 'Andriod Studio',
-      des: 'Here will be inShallah the des for Project2',   
+      img: GameProject,
+      title: 'Project Managment Game',
+      tag: 'React & Node js',
+      des: 'Project Management(PM) Game,containing PM cases based on the player’s answer.There are more than 15 flow with 45sec for each question.At the end the rank and score will display for the players.', 
+      large:true, 
      },
     {
-      // img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-      img: Logo,
-      title: 'Project3',
-      tag: 'Adobe XD',
-      des: 'Here will be inShallah the des for Project3',  
+      img: KnozeProject,
+      title: 'Knoze PoC',
+      tag: 'React',
+      des: 'Knoze website display the latest news and all news and if you choose any news will move to the article page',  
+      large:true,
     },
     {
-      // img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-      img: Logo,
-      title: 'Project4',
-      tag: 'Adobe XD',
-      des: 'Here will be inShallah the des for Project4',  
+      img: BlockChine,
+      title: 'BlockChine PoC',
+      tag: 'HTML5 & CSS & JS',
+      des: 'A website helps human resources(HR) to review applicants and also, helps users review all companies. The main advantage is that no one can modify or remove and that is why using blockchain.',  
+      large:true,
     },
   ];
   
@@ -47,7 +48,13 @@ function projects(){
     {projectData.map((project,index) => (
     <Box className="card" key={index}>
     <Box className='imgBx' >
-      <img src={`${project.img}?w=248&fit=crop&auto=format`}></img>
+      {project.large ?
+       <img className='large' src={`${project.img}?w=248&fit=crop&auto=format`}></img>
+      :
+       <img className='notlarge' src={`${project.img}?w=248&fit=crop&auto=format`}></img>
+    }
+
+      
     </Box>
     <Box className="contentBx" >
       <h2>{project.title}</h2>

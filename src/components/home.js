@@ -6,18 +6,19 @@ import AboutMe from './aboutMe';
 import Projects from './projects';
 import Contact from './contact';
 import TagSkills from './tagSkills';
-import CV from './cv'
+import Footer from './footer';
+
 function home(){
   return (
     <>
     <Nav/>
-    <Hero/>
+    {/* <Hero/> */}
     <AboutMe></AboutMe>
     <Experience></Experience>
     <TagSkills></TagSkills>
     <Projects></Projects>
-    {/* <CV></CV> */}
     <Contact></Contact>
+    <Footer></Footer>
     </>
   )
 }
