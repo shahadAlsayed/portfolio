@@ -81,7 +81,7 @@ function navBackground(){
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <AnchorLink offset={50} href={`#${page.toLowerCase()}Section`}>
-                  <Typography  textAlign="center">{page}</Typography>
+                  <Typography  sx={{color:'#3F3F3F'}} textAlign="center">{page}</Typography>
                   </AnchorLink>
                 </MenuItem>
               ))}
@@ -96,7 +96,7 @@ function navBackground(){
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2,  display: 'block' }}
+                sx={{ my: 2, color:'#3F3F3F', display: 'block' }}
               >
                 {page}
               </Button>
