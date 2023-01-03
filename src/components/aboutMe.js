@@ -7,10 +7,10 @@ import '../Style/aboutMe.css'
 function aboutMe() {
   return (
     <section id="aboutSection">
-        <Box sx={{paddingTop:'28em'}}>
-        <Typography classNameNameName='title' variant='h3' sx={{color:'#3F3F3F' , fontWeight:'bold' , justifyContent:'center', display:'flex', paddingTop:'6rem' , paddingBottom:'2rem'}}>About</Typography>
-        <Container sx={{display:'flex',flexDirection:'column' ,width:'50%' }}>
-        <Typography variant='h6' sx={{color:'#D9186A' , fontWeight:'bold',paddingBottom:'1em' }}>
+        <Box  className="aboutContainer" sx={{paddingTop:'28em'}}>
+        <Typography className='title' variant='h3' sx={{color:'#3F3F3F' , fontWeight:'bold' , justifyContent:'center', display:'flex', paddingTop:'6rem' , paddingBottom:'2rem'}}>About</Typography>
+        <Container className='aboutContent' sx={{display:'flex',flexDirection:'column' ,width:'50%' }}>
+        <Typography variant='h6' sx={{color:'#D9186A' , fontWeight:'bold',paddingBottom:'1em' }} className='subTitle'>
         DESIGNER & DEVELOPER
         </Typography>
         <Typography variant='h6' sx={{color:'#3F3F3F' , lineHeight:'1.6'}}>

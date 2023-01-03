@@ -5,13 +5,13 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .css-amucff-MuiTypography-root{
+    .heroContentOne{
         font-size: 4em !important;
     }
-    .css-1ed897c-MuiTypography-root{
+    .heroContentTwo{
         font-size: 2em !important; 
     }
-    .css-oqutt6-MuiContainer-root{
+    .heroContainer{
         width: 100vw !important;
         height: 80vh !important;
         padding-top: 40px !important;
@@ -21,7 +21,7 @@
         flex-direction: column-reverse;
         /* margin-top: -96px; */
     }
-    .css-s34gw7{
+    .heroContent{
         width: 90vw !important;
         /* align-items: center !important; */
         padding-top: 0 !important;
@@ -29,7 +29,7 @@
         padding-right: 0 !important;
 
     }
-    .css-1i3z4k7{
+    .logoBox{
         width: 100vw !important;
     }
 

@@ -1,14 +1,14 @@
 @media only screen and (max-width: 1024px) {
-    .css-1hm45a6-MuiContainer-root{
+    .aboutContent{
         width: 80% !important;
     }
-    .css-w5igko-MuiTypography-root{
+    .title{
         font-size: 2em !important;
     }
-    .css-rcfdz1-MuiTypography-root, .css-1m7uz5y-MuiTypography-root{
+    .subTitle{
         font-size: 1em !important;
     }
-    .css-n0ymft {
+    .aboutContainer {
         padding-top: 3em !important;
     }
   }
