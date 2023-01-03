@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './Nav.tsx';
-import Hero from './Hero';
+import Hero from './hero.js';
 import Experience from './experience';
 import AboutMe from './aboutMe';
 import Projects from './projects';
