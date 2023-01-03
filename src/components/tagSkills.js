@@ -77,7 +77,7 @@ function tagSkills() {
 
       <Box className="content" sx={{display:'flex',flexDirection:'row',width:'80%'}}>
         <Box className='part1' sx={{width:'50%',borderRight:'6px solid #d9186a'}}> 
-      <Typography  variant='h6' sx={{bgcolor:'#D9186A',color:'#fff' , fontWeight:'bold',width:'20%',display:'flex',justifyContent:'center'}}>Soft</Typography>
+      <Typography className='subTitle'  variant='h6' sx={{bgcolor:'#D9186A',color:'#fff' , fontWeight:'bold',width:'20%',display:'flex',justifyContent:'center'}}>Soft</Typography>
 
         <Box className="container-skillbar">
         {softSkills.map((skill) => (
@@ -91,7 +91,7 @@ function tagSkills() {
         </Box>
         </Box>
         <Box className='part1' sx={{width:'50%'}}> 
-        <Typography  variant='h6' sx={{bgcolor:'#D9186A',color:'#fff' , fontWeight:'bold',width:'20%',display:'flex',justifyContent:'center'}}>Technical</Typography>
+        <Typography className='subTitle' variant='h6' sx={{bgcolor:'#D9186A',color:'#fff' , fontWeight:'bold',width:'20%',display:'flex',justifyContent:'center'}}>Technical</Typography>
 
         <Box className="container-skillbar">
         {technicalSkills.map((skill) => (
