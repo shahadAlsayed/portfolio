@@ -186,6 +186,7 @@
   
  .large{
 width: 310px !important;
+border-radius: 5px;
    }
  .notlarge{
 width: 100px !important;
@@ -205,5 +206,8 @@ width: 100px !important;
 
     .container .card .contentBx .tag{
       font-size: 12px !important;
+    }
+    .container .card{
+      margin-bottom: 3em;
     }
   }

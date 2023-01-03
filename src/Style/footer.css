@@ -1,20 +1,23 @@
 .reactIcon{
-    width: 4%;
+    width: 3%;
     height: auto;
     margin-right: 1%;
 }
 
 
+
 @media only screen and (max-width: 1024px) {
 
     .reactIcon{
-        width: 14%;
+        width: 10%;
         height: auto;
-        margin-right: 1%;
+        margin-right: 3%;
     }
 
     .css-ahj2mt-MuiTypography-root{
         font-size: 0.8em !important;
     }
-
+    .text{
+        font-size: 0.3em !important;
+    }
   }

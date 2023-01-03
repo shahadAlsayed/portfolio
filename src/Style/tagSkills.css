@@ -38,7 +38,7 @@
     padding: 1em;
     top: 0;
     left: 0;
-    width: 150px;
+    width: 170px;
     font-weight: bold;
     font-size: 16px;
     color: #3F3F3F;
@@ -96,5 +96,8 @@
   .skillbar-title{
     font-size: 10px;
     width: 100px;
+  }
+  .css-480n1o {
+    border-right: 2px solid #d9186a !important;
   }
 }

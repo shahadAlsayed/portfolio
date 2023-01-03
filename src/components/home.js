@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './nav';
+import Nav from './Nav.tsx';
 import Hero from './Hero';
 import Experience from './experience';
 import AboutMe from './aboutMe';

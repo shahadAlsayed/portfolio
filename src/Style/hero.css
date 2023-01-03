@@ -19,11 +19,12 @@
         flex-direction: column-reverse !important;
         display: flex;
         flex-direction: column-reverse;
+        /* margin-top: -96px; */
     }
     .css-s34gw7{
-        width: 80vw !important;
+        width: 90vw !important;
         /* align-items: center !important; */
-        padding-top: 3em !important;
+        padding-top: 0 !important;
         padding-left: 0 !important;
         padding-right: 0 !important;
 
