@@ -2,13 +2,12 @@
     position: fixed !important;
     z-index: 1 !important;
 }
-.css-1q39md6-MuiButtonBase-root-MuiButton-root ,.css-1juftk3{
+.navContent{
     color: #3F3F3F !important;
     padding: 6px 25px !important;
 }
-    .css-1q39md6-MuiButtonBase-root-MuiButton-root:focus , .css-1q39md6-MuiButtonBase-root-MuiButton-root:active , .css-1juftk3:active , .css-1juftk3:hover{
-    color: #D9186A !important;
-    
+.navContent:active , .navContent:hover{
+    color: #D9186A !important;  
 }
 a{
     text-decoration: none;
