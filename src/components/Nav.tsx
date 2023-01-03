@@ -11,17 +11,26 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import '../Style/nav.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import $ from 'jquery'
+import {useEffect} from 'react';
 
 const pages = ['Home', 'About', 'Experience','Skills','Projects','Contact'];
 
-function Nav() {
+  export default function Nav(){
 
   // ******** ADD BACKGROUND COLOR TO THE NAV **********
-  //   $(document).ready(function(){
-//     $(window).scroll(function(){
-//         $('.nav').css("background-color", '#fff' , $(window).scrollTop() / 700)        
-//     })
-// })
+      useEffect(() =>{
+        window.addEventListener('scroll', navBackground, { passive: true });
+
+      },[])
+
+function navBackground(){
+  if(window.scrollY==0){
+    $('.nav').css("background-color", 'rgba(255,255,255,0)')              
+   }else{
+    $('.nav').css("background-color", '#fff' , $(window).scrollTop() / 700)              
+   }
+}
 
   // ******** NAV MENU **********
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -34,32 +43,9 @@ function Nav() {
     setAnchorElNav(null);
   };
 
-  // ******** SCROLL SECTION**********
-  const renderNavLink = (page) => {
-    
-    const scrollToId =`${page.toLowerCase()}Section`;
-  
-    const handelClickNav = () => {
-      // document.getElementById(scrollToId).scrollIntoView({behavior:'smooth'})
-      // document.getElementById('links').innerHTML.color="#D9186A";
-    }
-    return(
-      <Box sx={{ flexGrow: 1,display: { xs: 'none', md: 'flex' } }}>
-        <Button
-          id='links'
-          key={page}
-          onClick={handelClickNav}
-          sx={{ my: 2, color: '#3F3F3F', display: 'block' }}
-        >
-         {page}
-        </Button>  
-    </Box>
-    )
-  }
-
 
   return (
-    <AppBar position='static' sx={{background:'#fff',boxShadow:'none',top:'0',color:'#D9186A'}}>
+    <AppBar className='nav' sx={{background:'rgba(255,255,255,0)',boxShadow:'none',top:'0',color:'#D9186A'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
 
@@ -122,4 +108,4 @@ function Nav() {
     </AppBar>
   );
 }
-export default Nav;
+// export default Nav;
