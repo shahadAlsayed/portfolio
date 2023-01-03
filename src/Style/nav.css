@@ -21,9 +21,6 @@ justify-content: center !important;
     color: #D9186A !important;
 }
 
-/* .MuiBox-root .css-1i3z4k7{
-    z-index: 1;
-} */
 .css-19r6kue-MuiContainer-root{
     width: 70% !important;
 }
@@ -66,8 +63,6 @@ justify-content: center !important;
         }
         .css-o1d5fg-MuiPaper-root-MuiAppBar-root{
             position: fixed !important;
-            /* background-color: #fff !important;
-            z-index: 1 !important; */
         }
         .css-1uwgr7b-MuiTypography-root{
             color: #3F3F3F;        
