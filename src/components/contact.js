@@ -12,7 +12,7 @@ function contact(){
     <Box sx={{width:'60%',display:'flex',justifyContent:'center',marginLeft:'auto',marginRight:'auto',marginBottom:'8em'}}>
       <Box  className='pattren' sx={{bgcolor:"#F2E2E3"}}>
       <Box className='test' sx={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',width:'80% '}}>
-            <Typography variant='h6' sx={{color:'#3F3F3F' , fontWeight:'bold' }}> Scan the QR</Typography>
+            <Typography className='scan'  variant='h6' sx={{color:'#3F3F3F' , fontWeight:'bold' }}> Scan the QR</Typography>
             <img className='qr' src={QR}></img>
         </Box>
       </Box>

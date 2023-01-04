@@ -19,7 +19,7 @@ function experience(){
     <section id="experienceSection">
 
    
-    <Box sx={{paddingTop:'8em'}}>
+    <Box sx={{paddingTop:'8em'}} className='experienceBox'>
     <Typography className='title' variant='h3' sx={{color:'#3F3F3F' , fontWeight:'bold' , justifyContent:'center', display:'flex', paddingTop:'4rem' , paddingBottom:'2rem',marginTop:'4em'}}>Experience</Typography>
 
     <Timeline>

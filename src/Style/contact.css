@@ -86,4 +86,7 @@
         width: 10%;
         height: 20%;
     }
+    .scan{
+        font-size: 1rem !important;
+    }
   }
