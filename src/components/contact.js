@@ -22,9 +22,9 @@ function contact(){
 
         {/* //linkedin */}
         <Box sx={{display:'flex', flexDirection:'column', alignItems:'center', width:'50%'}}>
-        {/* <a className='linkedinIcon icon' href='https://www.linkedin.com/in/shahad-alsayed-662792203'> */}
+        <a className='linkedinIcon icon' href='https://www.linkedin.com/in/shahad-alsayed-662792203'>
         <img className='linkedinIcon icon' ></img>
-        {/* </a> */}
+        </a>
           <Box  sx={{display:'flex', flexDirection:'column',paddingTop:'2rem' , paddingBottom:'2rem'}}>
           {/* <Typography variant='h8' sx={{color:'#3F3F3F' , fontWeight:'bold' , display:'flex' }}>Linkedin</Typography>
 
