@@ -13,7 +13,7 @@ function aboutMe() {
         <Typography variant='h6' sx={{color:'#D9186A' , fontWeight:'bold',paddingBottom:'1em' }} className='subTitle'>
         DESIGNER & DEVELOPER
         </Typography>
-        <Typography variant='h6' sx={{color:'#3F3F3F' , lineHeight:'1.6'}}>
+        <Typography className='content' variant='h6' sx={{color:'#3F3F3F' , lineHeight:'1.6'}}>
         Bachelor Information Technology, track of Cyber Security. 
         Development and UX are my passion also, interested in Cyber Security.
         One of my life objectives is to share knowledge with others and make a positive changes.

@@ -41,10 +41,10 @@ function experience(){
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span" sx={{color:'#3F3F3F' , fontWeight:'bold'}}>
+          <Typography className='contnetFont' variant="h6" component="span" sx={{color:'#3F3F3F' , fontWeight:'bold'}}>
           Developer & UX|UI Designer
           </Typography>
-          <Typography sx={{color:'#3F3F3F'}}>Solutions by stc</Typography>
+          <Typography className='contnetFont' sx={{color:'#3F3F3F'}}>Solutions by stc</Typography>
         </TimelineContent>
       </TimelineItem>
 
@@ -65,10 +65,10 @@ function experience(){
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span" sx={{color:'#3F3F3F' , fontWeight:'bold'}}>
+          <Typography className='contnetFont' variant="h6" component="span" sx={{color:'#3F3F3F' , fontWeight:'bold'}}>
           Trainee
           </Typography>
-          <Typography sx={{color:'#3F3F3F'}}>Solutions by stc</Typography>
+          <Typography className='contnetFont' sx={{color:'#3F3F3F'}}>Solutions by stc</Typography>
         </TimelineContent>
       </TimelineItem>
 
@@ -90,10 +90,10 @@ function experience(){
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span" sx={{color:'#3F3F3F' , fontWeight:'bold'}}>
+          <Typography  className='contnetFont' variant="h6" component="span" sx={{color:'#3F3F3F' , fontWeight:'bold'}}>
           Bachelor Information Technology
           </Typography>
-          <Typography sx={{color:'#3F3F3F'}}>King Saud University</Typography>
+          <Typography className='contnetFont' sx={{color:'#3F3F3F'}}>King Saud University</Typography>
         </TimelineContent>
       </TimelineItem>      
     </Timeline> 
