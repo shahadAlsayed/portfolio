@@ -18,7 +18,7 @@ function contact(){
         </Box>
       </Box>
       
-      <Box className='medai' sx={{width:'50%',justifyContent:'center',display:'flex',flexDirection:'column'}}>
+      <Box className='medai' sx={{width:'50%',justifyContent:'center',display:'flex',flexDirection:'column',paddingTop:'30px'}}>
 
         {/* //linkedin */}
         <Box sx={{display:'flex', flexDirection:'column', alignItems:'center', width:'50%'}}>
