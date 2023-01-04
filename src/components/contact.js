@@ -18,50 +18,44 @@ function contact(){
         </Box>
       </Box>
       
-      <Box sx={{width:'80%',justifyContent:'center',display:'flex',flexDirection:'column'}}>
+      <Box className='medai' sx={{width:'50%',justifyContent:'center',display:'flex',flexDirection:'column'}}>
 
         {/* //linkedin */}
-        <a  className='card' href='https://www.linkedin.com/in/shahad-alsayed-662792203' >
-        <Box sx={{display:'flex', flexDirection:'row', paddingLeft:'2em',alignItems:'center'}}>
+        <Box sx={{display:'flex', flexDirection:'column', alignItems:'center', width:'50%'}}>
         {/* <a className='linkedinIcon icon' href='https://www.linkedin.com/in/shahad-alsayed-662792203'> */}
         <img className='linkedinIcon icon' ></img>
         {/* </a> */}
-          <Box  sx={{display:'flex', flexDirection:'column',paddingTop:'2rem' , paddingBottom:'2rem',paddingLeft:'1em'}}>
-          <Typography variant='h8' sx={{color:'#3F3F3F' , fontWeight:'bold' , display:'flex' }}>Linkedin</Typography>
+          <Box  sx={{display:'flex', flexDirection:'column',paddingTop:'2rem' , paddingBottom:'2rem'}}>
+          {/* <Typography variant='h8' sx={{color:'#3F3F3F' , fontWeight:'bold' , display:'flex' }}>Linkedin</Typography>
 
-          <Typography variant='h8' sx={{color:'#3F3F3F' ,  display:'flex',paddingTop:'5px'}}>  Shahad Alsayed  </Typography>
+          <Typography variant='h8' sx={{color:'#3F3F3F' ,  display:'flex',paddingTop:'5px'}}>  Shahad Alsayed  </Typography> */}
           </Box>
         </Box>  
-        </a>
 
         {/* phone */}
-        <a  className='card' href='tel:+966549554621' >
-        <Box sx={{display:'flex', flexDirection:'row',alignItems:'center', paddingLeft:'2em'}}>
+        <Box sx={{display:'flex', flexDirection:'column',alignItems:'center', width:'50%'}}>
           <a className='phoneIcon icon'href='tel:+966549554621'>
           <img ></img>
           </a>
-          <Box sx={{display:'flex', flexDirection:'column',paddingTop:'2rem' , paddingBottom:'2rem',paddingLeft:'1em'}}>
-          <Typography variant='h8' sx={{color:'#3F3F3F' , fontWeight:'bold' , display:'flex' }}>Phone</Typography>
-          <Typography variant='h8' sx={{color:'#3F3F3F' ,  display:'flex',paddingTop:'5px'}}> +966 549554621</Typography>
+          <Box sx={{display:'flex', flexDirection:'column',paddingTop:'2rem' , paddingBottom:'2rem'}}>
+          {/* <Typography variant='h8' sx={{color:'#3F3F3F' , fontWeight:'bold' , display:'flex' }}>Phone</Typography>
+          <Typography variant='h8' sx={{color:'#3F3F3F' ,  display:'flex',paddingTop:'5px'}}> +966 549554621</Typography> */}
           </Box>
         </Box>
-        </a>
 
 
         {/* email */}
-        <a  className='card' href='mailto:ShahadAlsayed44@gmail.com'>
-        <Box sx={{display:'flex', flexDirection:'row',alignItems:'center', paddingLeft:'2em'}}>
+        <Box sx={{display:'flex', flexDirection:'column',alignItems:'center', width:'50%' }}>
           <a className='emailIcon icon' href='mailto:ShahadAlsayed44@gmail.com'>
-          <img  ></img>
+          <img ></img>
           </a>
 
-          <Box className='emailClass' sx={{display:'flex', flexDirection:'column',paddingTop:'2rem' , paddingBottom:'2rem',paddingLeft:'1em'}}>
-          <Typography variant='h8' sx={{color:'#3F3F3F' , fontWeight:'bold' , display:'flex' }}>Email</Typography>
-          <Typography variant='h8' sx={{color:'#3F3F3F' ,  display:'flex',paddingTop:'5px'}}>ShahadAlsayed44@gmail.com</Typography>
+          <Box className='emailClass' sx={{display:'flex', flexDirection:'column',paddingTop:'2rem' , paddingBottom:'2rem'}}>
+          {/* <Typography variant='h8' sx={{color:'#3F3F3F' , fontWeight:'bold' , display:'flex' }}>Email</Typography>
+          <Typography variant='h8' sx={{color:'#3F3F3F' ,  display:'flex',paddingTop:'5px'}}>ShahadAlsayed44@gmail.com</Typography> */}
           </Box>
 
         </Box>
-        </a>
         
       </Box>
     </Box>
