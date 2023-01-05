@@ -139,6 +139,7 @@
   .skillbar {
     width: 76% !important;
     height: 60px;
+    background-color: aqua;
   }
   .container-skillbar {
     width: 100% !important;
