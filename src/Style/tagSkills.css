@@ -140,6 +140,9 @@
     width: 76% !important;
     height: 60px;
   }
+  .container-skillbar {
+    width: 100% !important;
+  }
 } 
 
 /* For mobile : like samsung grand(480 * 800): */
