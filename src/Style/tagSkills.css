@@ -1,5 +1,5 @@
   .container-skillbar {
-    min-width: 60%;
+    min-width: 60% !important;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 2%;
