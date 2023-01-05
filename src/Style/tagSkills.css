@@ -104,4 +104,16 @@
     width: 60% !important;
     font-size: 1rem !important;
   }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .subTitle{
+    width: 30% !important;
+    font-size: 1rem !important;
+  }
+  .skillbar {
+    width: 46% !important;
+    height: 40px;
+  }
 }
