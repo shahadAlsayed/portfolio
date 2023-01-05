@@ -131,7 +131,7 @@
 
 
 /* For ipad: */
-@media screen and (max-width : 820px){
+@media screen and (min-width : 820px),screen and (max-width : 1000px) {
   .subTitle{
     width: 30% !important;
     font-size: 1rem !important;
