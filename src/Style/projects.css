@@ -193,7 +193,7 @@ width: 100px !important;
    }
 
 
-
+/* 
    @media only screen and (max-width: 1024px) {
 
     .css-tyxktk-MuiTypography-root{
@@ -216,4 +216,30 @@ width: 100px !important;
     .container  {
       justify-content: center;
     }
+  } */
+
+
+
+  @media screen and (max-width : 820px){
+    .container  {
+      justify-content: center;
+    }
   }
+  @media screen and (max-width : 480px){
+    .css-tyxktk-MuiTypography-root{
+      font-size: 2em !important;
+  }
+
+  .container .card .contentBx h2{
+    font-size: 1em !important;
+  }
+
+  .container .card .contentBx .tag{
+    font-size: 12px !important;
+  }
+  .container .card{
+    margin-bottom: 3em;
+  }
+  }
+  
+
