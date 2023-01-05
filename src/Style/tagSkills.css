@@ -170,4 +170,7 @@
     width: 60% !important;
     font-size: 1rem !important;
   }
+  .container-skillbar {
+    width: 110% !important;
+  }
 }
