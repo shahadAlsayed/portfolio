@@ -139,11 +139,10 @@
   .skillbar {
     width: 76% !important;
     height: 60px;
-    background-color: aqua;
   }
-  .container-skillbar {
+  /* .container-skillbar {
     width: 100% !important;
-  }
+  } */
 } 
 
 /* For mobile : like samsung grand(480 * 800): */
