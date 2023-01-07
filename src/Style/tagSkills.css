@@ -1,5 +1,5 @@
   .container-skillbar {
-    min-width: 60% !important;
+    min-width: 100% ;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 2%;
@@ -131,7 +131,7 @@
 
 
 /* For ipad: */
-@media screen and (min-width : 820px),screen and (max-width : 1000px) {
+@media screen and (min-width : 350px) and (max-width : 1000px) {
   .subTitle{
     width: 30% !important;
     font-size: 1rem !important;
