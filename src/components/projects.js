@@ -6,6 +6,9 @@ import LoqProject from '../Assets/Screenshot 1444-05-18 at 10.24.13 AM.png'
 import GameProject from '../Assets/game.png'
 import KnozeProject from '../Assets/knoze.png'
 import BlockChine from '../Assets/BlockChine.png'
+// import SamaDashboard from '../Assets/test2.png'
+// import samaTest from '../Assets/Dashboard.jpg'
+import samaDashboard from '../Assets/samaDahsboard.jpg'
 function projects(){
   const projectData = [
     {
@@ -36,6 +39,13 @@ function projects(){
       des: 'A website helps human resources(HR) to review applicants and also, helps users review all companies. The main advantage is that no one can modify or remove and that is why using blockchain.',  
       large:true,
     },
+    {
+      img: samaDashboard,
+      title: 'Dashboard',
+      tag: 'Figma',
+      des: 'A dashboard website presents an overview of the systems status through various views, such as dashboard and cards. It also offers filtering options for today, this week, this month, and this year.',  
+      large:true,
+    },
   ];
   
   return (  
@@ -52,6 +62,7 @@ function projects(){
        <img className='large' src={`${project.img}?w=248&fit=crop&auto=format`}></img>
       :
        <img className='notlarge' src={`${project.img}?w=248&fit=crop&auto=format`}></img>
+       
     }
 
       
