@@ -6,9 +6,8 @@ import LoqProject from '../Assets/Screenshot 1444-05-18 at 10.24.13 AM.png'
 import GameProject from '../Assets/game.png'
 import KnozeProject from '../Assets/knoze.png'
 import BlockChine from '../Assets/BlockChine.png'
-// import SamaDashboard from '../Assets/test2.png'
-// import samaTest from '../Assets/Dashboard.jpg'
 import samaDashboard from '../Assets/samaDahsboard.jpg'
+import DesignSystem from '../Assets/coverDesignSystem.jpg'
 function projects(){
   const projectData = [
     {
@@ -46,6 +45,13 @@ function projects(){
       des: 'A dashboard website presents an overview of the systems status through various views, such as dashboard and cards. It also offers filtering options for today, this week, this month, and this year.',  
       large:true,
     },
+    {
+      img: DesignSystem,
+      title: 'Design System',
+      tag: 'Figma',
+      des: 'A design system for an iOS delivery app that includes icons, media, colors, fonts, components, system grid, and space.',  
+      large:true,
+    },
   ];
   
   return (  
@@ -65,7 +71,6 @@ function projects(){
        
     }
 
-      
     </Box>
     <Box className="contentBx" >
       <h2>{project.title}</h2>
@@ -75,6 +80,7 @@ function projects(){
       <Box className="des">
         {project.des}
       </Box>
+
     </Box>
   </Box>
   ))}
