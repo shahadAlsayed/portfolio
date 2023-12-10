@@ -24,7 +24,7 @@ function experience(){
 
     <Timeline>
 
-      <TimelineItem>
+    <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           align="right"
@@ -42,7 +42,32 @@ function experience(){
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography className='contnetFont' variant="h6" component="span" sx={{color:'#3F3F3F' , fontWeight:'bold'}}>
-          Developer & UX|UI Designer
+          UX|UI Designer
+          </Typography>
+          <Typography className='contnetFont' sx={{color:'#3F3F3F'}}>Solutions by stc</Typography>
+        </TimelineContent>
+      </TimelineItem>
+
+
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          align="right"
+          variant="body2"
+          color="#3F3F3F"
+        >
+          Jan 2022 - May 2023
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          <TimelineDot>
+          <PersonIcon />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography className='contnetFont' variant="h6" component="span" sx={{color:'#3F3F3F' , fontWeight:'bold'}}>
+          Developer 
           </Typography>
           <Typography className='contnetFont' sx={{color:'#3F3F3F'}}>Solutions by stc</Typography>
         </TimelineContent>
